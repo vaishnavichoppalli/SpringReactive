@@ -61,6 +61,5 @@ public class FluxAndMonoGeneratorService {
             System.out.println("Name is: "+name);
         });
 
-
     }
 }
