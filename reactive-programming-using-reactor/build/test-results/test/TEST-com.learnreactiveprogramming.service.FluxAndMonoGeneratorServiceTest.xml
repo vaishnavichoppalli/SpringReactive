@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.learnreactiveprogramming.service.FluxAndMonoGeneratorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-11T16:44:35" hostname="Vaishnavis-Air.attlocal.net" time="0.094">
+  <properties/>
+  <testcase name="namesFlux_flatmap()" classname="com.learnreactiveprogramming.service.FluxAndMonoGeneratorServiceTest" time="0.094"/>
+  <system-out><![CDATA[12:44:35.747 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+12:44:35.764 [Test worker] INFO reactor.Flux.FlatMap.1 - onSubscribe(FluxFlatMap.FlatMapMain)
+12:44:35.766 [Test worker] INFO reactor.Flux.FlatMap.1 - request(unbounded)
+12:44:35.767 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(A)
+12:44:35.767 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(L)
+12:44:35.767 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(E)
+12:44:35.767 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(X)
+12:44:35.767 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(C)
+12:44:35.768 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(H)
+12:44:35.768 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(L)
+12:44:35.768 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(O)
+12:44:35.768 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(E)
+12:44:35.768 [Test worker] INFO reactor.Flux.FlatMap.1 - onComplete()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

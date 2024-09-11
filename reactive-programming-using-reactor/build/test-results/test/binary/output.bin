@@ -1,0 +1,13 @@
+d12:44:35.747 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+^12:44:35.764 [Test worker] INFO reactor.Flux.FlatMap.1 - onSubscribe(FluxFlatMap.FlatMapMain)
+L12:44:35.766 [Test worker] INFO reactor.Flux.FlatMap.1 - request(unbounded)
+C12:44:35.767 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(A)
+C12:44:35.767 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(L)
+C12:44:35.767 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(E)
+C12:44:35.767 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(X)
+C12:44:35.767 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(C)
+C12:44:35.768 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(H)
+C12:44:35.768 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(L)
+C12:44:35.768 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(O)
+C12:44:35.768 [Test worker] INFO reactor.Flux.FlatMap.1 - onNext(E)
+F12:44:35.768 [Test worker] INFO reactor.Flux.FlatMap.1 - onComplete()
