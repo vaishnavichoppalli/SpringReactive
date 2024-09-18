@@ -3,12 +3,22 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/com.reactivespring" />
+        <option name="gradleJvm" value="18" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/com.reactivespring" />
           </set>
         </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/movie-info-service" />
+        <option name="gradleJvm" value="azul-15" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/movies-info-service" />
+        <option name="gradleJvm" value="18" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/movies-review-service" />
@@ -34,6 +44,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/reactive-programming-using-reactor" />
+            <option value="$PROJECT_DIR$/reactive-programming-using-reactor/movies-info-service" />
+            <option value="$PROJECT_DIR$/reactive-programming-using-reactor/movies-review-service" />
+            <option value="$PROJECT_DIR$/reactive-programming-using-reactor/movies-service" />
+            <option value="$PROJECT_DIR$/reactive-programming-using-reactor/reactive-programming-using-reactor" />
           </set>
         </option>
       </GradleProjectSettings>

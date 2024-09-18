@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringReactive.iml" filepath="$PROJECT_DIR$/.idea/SpringReactive.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactive-programming-using-reactor.main.iml" filepath="$PROJECT_DIR$/.idea/modules/reactive-programming-using-reactor.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactive-programming-using-reactor.test.iml" filepath="$PROJECT_DIR$/.idea/modules/reactive-programming-using-reactor.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-info-service/movie-info-service.iml" filepath="$PROJECT_DIR$/movie-info-service/movie-info-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactive-spring-webflux.main.iml" filepath="$PROJECT_DIR$/.idea/modules/reactive-spring-webflux.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactive-spring-webflux.test.iml" filepath="$PROJECT_DIR$/.idea/modules/reactive-spring-webflux.test.iml" />
     </modules>
   </component>
 </project>
