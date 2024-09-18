@@ -47,7 +47,15 @@ public class FluxAndMonoGeneratorService {
         return Flux.fromIterable(List.of("alex", "ben", "chloe"))
                 .map(String::toUpperCase)
                 .filter(s -> s.length()>string_length)
-                .flatMap(n -> splitString(n))
+                .flatMap(n -> splitString_withDelay(n))
+                .log();
+    }
+    public Flux<String> namesFlux_concatmap(int string_length){
+
+        return Flux.fromIterable(List.of("alex", "ben", "chloe"))
+                .map(String::toUpperCase)
+                .filter(s -> s.length()>string_length)
+                .concatMap(n -> splitString_withDelay(n))
                 .log();
     }
     public static void main(String[] args) {
