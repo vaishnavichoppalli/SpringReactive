@@ -18,6 +18,10 @@ height: 38px;
 nav ul li{
     float: left;
     list-style: none;
-    margin:  30px;
+    margin:  20px;
     font-size: 22px;
+}
+.nav-right{
+    margin: 30px 0px;
+    padding-left: 10%;
 }
