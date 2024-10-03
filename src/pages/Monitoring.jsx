@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Monitoring = () => {
   return (
-    <div>m</div>
+    <div>This is monitoring page</div>
   )
 }
  

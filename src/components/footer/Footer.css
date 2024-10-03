@@ -1,0 +1,29 @@
+.footer{
+    position: relative;
+    height: 56px;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-top: 1px solid #e3e3e3;
+}
+
+.copyRight{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #aaa;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.footer-link{
+    color: #5b5b5b;
+    margin-left: 35px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 600;
+    text-decoration: none;
+
+}

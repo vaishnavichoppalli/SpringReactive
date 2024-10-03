@@ -1,0 +1,10 @@
+.sidebar {
+    width: 200px;
+    background-color: #fff;
+    /* padding: 20px; */
+    height: 100%;
+    margin: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #e3e3e3;
+  }
+  
